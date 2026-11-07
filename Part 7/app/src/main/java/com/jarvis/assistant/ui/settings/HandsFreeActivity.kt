@@ -54,19 +54,19 @@ class HandsFreeActivity : AppCompatActivity() {
         }
 
         binding.btnHandsFreeOfficialTelegram.setOnClickListener {
-            openUrl("https://t.me/+sYana61LvHdmZmE1")
+            openUrl("https://t.me/gaming_chn")
         }
 
         binding.btnHandsFreeDiscussion.setOnClickListener {
-            openUrl("https://t.me/+DmyO7NFUia01YTVl")
+            openUrl("https://t.me/gaming_chn")
         }
 
         binding.btnHandsFreeInstagram.setOnClickListener {
-            openUrl("https://www.instagram.com/techgptx.ai")
+            openUrl("https://www.instagram.com/aniket_jatav_350?rpxt=MW9iM2t1MDhrZmZtag==")
         }
 
         binding.tvFooterHandsFree.setOnClickListener {
-            openUrl("https://t.me/+sYana61LvHdmZmE1")
+            openUrl("https://t.me/gaming_chn")
         }
     }
 
