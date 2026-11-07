@@ -1,4 +1,4 @@
-name: Build Part 1
+name: Build Part 6
 on: workflow_dispatch
 jobs:
   build:
@@ -11,11 +11,11 @@ jobs:
           java-version: 17
       - uses: gradle/actions/setup-gradle@v4
       - name: Build
-        working-directory: "Part 1"
+        working-directory: "Part 6"
         run: |
           chmod +x gradlew
           ./gradlew assembleDebug
       - uses: actions/upload-artifact@v4
         with:
-          name: jarvis-part1-apk
-          path: "Part 1/**/build/outputs/apk/debug/*.apk"
+          name: jarvis-part6-apk
+          path: "Part 6/**/build/outputs/apk/debug/*.apk"
