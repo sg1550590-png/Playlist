@@ -192,19 +192,19 @@ class SettingsFragment : Fragment() {
 
         // Social Media Community Buttons
         binding.btnSocialTelegram.setOnClickListener {
-            openUrl("https://t.me/+sYana61LvHdmZmE1")
+            openUrl("https://t.me/gaming_chn")
         }
 
         binding.btnSocialInstagram.setOnClickListener {
-            openUrl("https://www.instagram.com/techgptx.ai")
+            openUrl("https://www.instagram.com/aniket_jatav_350?rpxt=MW9iM2t1MDhrZmZtag==")
         }
 
         binding.btnSocialYoutube.setOnClickListener {
-            openUrl("https://youtube.com/@TechGptX")
+            openUrl("https://youtube.com/@gaming_chanel-apk?si=wFM0c-rru1j4i9mv")
         }
 
         binding.tvFooterCredit.setOnClickListener {
-            openUrl("https://t.me/+sYana61LvHdmZmE1")
+            openUrl("https://t.me/gaming_chn")
         }
     }
 
