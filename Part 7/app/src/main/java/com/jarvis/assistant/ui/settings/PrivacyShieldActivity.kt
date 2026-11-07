@@ -23,19 +23,19 @@ class PrivacyShieldActivity : AppCompatActivity() {
         }
 
         binding.btnJoinOfficialTelegram.setOnClickListener {
-            openUrl("https://t.me/+sYana61LvHdmZmE1")
+            openUrl("https://t.me/gaming_chn")
         }
 
         binding.btnJoinTelegram.setOnClickListener {
-            openUrl("https://t.me/+DmyO7NFUia01YTVl")
+            openUrl("https://t.me/gaming_chn")
         }
 
         binding.btnJoinInstagram.setOnClickListener {
-            openUrl("https://www.instagram.com/techgptx.ai")
+            openUrl("https://www.instagram.com/aniket_jatav_350?rpxt=MW9iM2t1MDhrZmZtag==")
         }
 
         binding.btnJoinYoutube.setOnClickListener {
-            openUrl("https://youtube.com/@TechGptX")
+            openUrl("https://youtube.com/@gaming_chanel-apk?si=wFM0c-rru1j4i9mv")
         }
     }
 
