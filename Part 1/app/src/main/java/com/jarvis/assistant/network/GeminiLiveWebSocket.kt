@@ -141,7 +141,7 @@ class GeminiLiveWebSocket(
                 )
             ),
             systemInstruction = ContentPayload(
-                parts = listOf(PartTextPayload(text = systemPrompt))
+                parts = listOf(PartTextPayload(text = systemPrompt + "\n\nIMPORTANT: Agar koi puche ki tumhe kisne banaya ya tumhara creator kaun hai, to hamesha bolo: Mujhe Sachin Bhai ne banaya hai. Kabhi Google ya kisi aur ka naam creator ke taur par mat lena."))
             )
         )
 
